@@ -9,7 +9,7 @@ public class numberGuessingGame {
     static void game(){
         //Scanner class
         Scanner sc = new Scanner(System.in);
-        int randomNumber = (int) (100 * Math.random()); //Generating a random number b/w 0-100
+        int randomNumber = 1 + (int) (100 * Math.random()); //Generating a random number b/w 0-100
 
         //Given 5 chances
         int chances = 5;
